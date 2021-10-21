@@ -9,4 +9,10 @@
   "default_locale": "en",
   "description": "A chrome extenstion that will block youtube and replace it with a motivational image",
   //"icons": {...},
+  "content_scripts": [
+    {
+      "matches": [https://www.youtube.com/*],
+      "js": [./main.js]
+    }
+  ]
 }
