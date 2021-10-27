@@ -1,0 +1,33 @@
+#buttonContainer {
+    margin:20px;
+}
+
+#loadButton {
+    background-color: #dc3546;
+    color: white;
+    padding:15px 32px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 5px #999
+}
+
+#loadButton:hover {background-color: #cc3040}
+
+#loadButton:active {
+    background-color: #cc3040;
+    box-shadow: 0 2px #666;
+    transform: translateY(3px)
+}
+
+#messageContainer {
+    text-align: center;
+}
+
+#timedMsg {
+    margin-top: 20px;
+    font-size: 16px;
+}
