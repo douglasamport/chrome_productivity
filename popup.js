@@ -20,5 +20,13 @@ function sendButtonMessage() {
     });
 }
 
-//THIS IS THE SOLUTION 
-//https://newbedev.com/onclick-or-inline-script-isn-t-working-in-extension
+
+
+let button = document.getElementById('loadButton');
+button.addEventListener('click', sendButtonMessage);
+
+function sendButtonMessage() {
+    chrome.tabs.query({ active: true, currentWindow: true}, function(activeTabs) {
+        chrome.tabs.sendMessage(activeTabs[0].id, { action: 'executeCode' });
+    });
+}

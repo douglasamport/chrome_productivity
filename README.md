@@ -1,15 +1,9 @@
-# chrome_productivity
-A chrome productivity add-on to block youtube and other social sites while working.
+Chrome_extension_focus
 
+Google chrome extension that blocks YouTube.  I designed this to give kids a reminder that they shouldnt be on youtube too early or too late.   It's extra useful if your youngster hasn't learned how to access the setting menu yet.  Otherwise it will probably keep honest kids honest.
 
--- Stack overflow about sending messages
+You can install the extension here:   URL TBD
 
-https://stackoverflow.com/questions/38561136/chrome-extension-to-change-dom-with-a-button-in-extension-popup?rq=1
+Or feel free to download the project and tweak it as you see fit.
 
--- blog post on inline scripting for chrome extenstions
-
-https://newbedev.com/onclick-or-inline-script-isn-t-working-in-extension
-
-TODO
-
-
+The extension, when active, should delete all YouTube Content and replace it with an inspirational outer space photo and a stern message.   After 8AM and Before 8PM the content can be returned using the button in the extension popup menu, accessed by clicking the icon on the top right corner of the chrome browser.   Other times the blocker can only be disabled throught the extensions menu accessed via the chrome settings menu.
