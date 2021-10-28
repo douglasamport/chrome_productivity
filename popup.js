@@ -1,6 +1,5 @@
 const hour = new Date().getHours();   
 
-
 function buttonActionSwitcher(time) {
     let button = document.getElementById('loadButton');
     let timedMsg = document.getElementById('timedMsg');
@@ -19,8 +18,6 @@ function sendButtonMessage() {
         chrome.tabs.sendMessage(activeTabs[0].id, { action: 'executeCode' });
     });
 }
-
-
 
 let button = document.getElementById('loadButton');
 button.addEventListener('click', sendButtonMessage);

@@ -12,7 +12,7 @@ content.remove()                                            // remove elemetn fr
 const focusImage = document.createElement('img');           
 focusImage.src = "https://source.unsplash.com/random/?space"//get random image from unsplash.com
 // focusImage.src = chrome.runtime.getURL("img/focus.jpg"); // Get full URL of Image in chrome_estenstions:// etc.... dont forget to allow in manifest.json
-focusImage.alt = "green road sign that reads 'focus' "      // Include ALT text for screen readers
+focusImage.alt = ""      // Include ALT text for screen readers
 $(focusImage).css({"position":"absolute", "left":"50%", "transform":"translate(-50%, 0)"});  
 contentNext.prepend(focusImage);                            // Add image to DOM
 
