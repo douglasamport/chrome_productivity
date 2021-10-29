@@ -19,9 +19,6 @@
     "default_title": "Focus",  
     "default_popup": "popup.html"   
   },
-  "permissions": [
-    "tabs"
-  ],
   "web_accessible_resources": [
     {
       "resources": [ "/img/focus.jpg" ],
